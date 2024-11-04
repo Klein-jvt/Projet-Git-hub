@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO Webstore</title>
+    <link rel="stylesheet" href="./accueilco.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>LEGO Webstore</h1>
+            <hr>
+            <ul>
+                <li><a href="./accueilco.html">Accueil</a></li>
+                <li><a href="./acceuilcolink.html">Acheter</a></li>
+            </ul>
+            <hr>
+            <h2>Acheter des LEGO</h2>
+            <p>Remplissez le formulaire ci-dessous pour commander des <span>LEGO !</span></p>
+        </header>
+        
+        <h3>Informations personnelles</h3>
+
+        
+        
+        <form>
+            
+            <p>Civilité :</p>
+
+            <div class="gender">
+
+                <div class="radio-couple">
+                    <input  value="Mister" ename="gender" type="radio">
+                    <p>Mr</p>
+                </div>
+
+                <div class="radio-couple">
+                    <input  value="Miss" ename="gender" type="radio">
+                    <p>Mme</p>
+                </div>
+
+            </div>
+
+            <div id="formulaire">
+                <div>
+                    <label for="Username">Username:</label>
+                    <input type="text" placeholder="Votre nom de famille">
+                </div>
+                
+                <div>
+                    <label for="Email">Email:</label>
+                    <input type="text" placeholder="Votre Email">
+                </div>
+                
+                <div>
+                    <label for="Passeword">Passeword</label>
+                    <input type="Mot de passe" placeholder="Votre mot de passe">
+                </div>
+                
+                <div>
+                    <label for="Passeword">Passeword confirmation</label>
+                    <input type="Confirmer de votre mot de passe" placeholder="Confirmation de votre mot de passe">
+                </div>
+                
+                <div>
+                    <label for="terms">J'accepte les conditions</label>
+                    <input type="checkbox" name="terms" id="terms">
+                </div>
+            </div>
+            
+            
+            <h3>Informations de livraison</h3>
+            
+            <p>Quantité commandé</p>
+            
+        </form>
+        
+        <select name="boxes" id="select-boxes">
+            <option value="one"> 1 boite</option>
+            <option value="two">2 boites</option>
+            <option value="three">3 boites</option>
+            <option value="four">4 boites</option>
+        </select>
+
+        <label for="adresse"> adresse de livraison</label>
+        <textarea name="adress"></textarea>
+        
+        <footer>
+            
+            <hr>
+
+            <p><a href="#">retour en haut de page</a></p>
+
+            <p>TP1 : Découverte de HTML et CSS</p>
+
+            <p>L2 Développement Web - 2018</p>
+
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>

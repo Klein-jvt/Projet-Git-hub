@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+}
+.container {
+    box-sizing: border-box;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 16px;
+}
+span {
+    font-weight: bold;
+    color: aqua;
+    font-style: italic;
+}
+table, th, td {
+    border: 2px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    padding: 12px;
+}
+form {
+    width: 250px;
+    padding: 8px;
+    display: flex;
+
+}
+
+.radio-couple {
+    display: flex;
+}
+.gender {
+    display: flex;
+    margin-bottom: 24px;
+}
+form p {
+    margin: 0px;
+}
+#formulaire { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    width: 250px;
+}
+    

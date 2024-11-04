@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(111, 116, 203);
+}
+.container {
+    background-color: white;
+    box-sizing: border-box;
+    width: auto;
+    margin: auto;
+    padding: 16px;s
+}
+
+}
+table, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    padding: 16px;
+}
